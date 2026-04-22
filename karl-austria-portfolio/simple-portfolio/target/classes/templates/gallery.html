@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Gallery - Karl Joseph A. Austria</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}"/>
+</head>
+<body>
+
+    <nav>
+        <span class="logo">Karl's Portfolio</span>
+        <a href="/">Home</a>
+        <a href="/about">About Me</a>
+        <a href="/journey">My Journey</a>
+        <a href="/skills">Skills</a>
+        <a href="/gallery">Gallery</a>
+    </nav>
+
+    <div class="container">
+        <h1>Photo Gallery</h1>
+        <p>Here are some photos from my life as a student.</p>
+        
+        
+        <div class="gallery-item gallery-item-big">
+            <img th:src="@{/images/MyCertificate.png}" alt="My Certificate" style="display: block; margin: 0 auto;">
+            <p>The certificate for my Research :)</p>
+        </div>
+
+        <div class="gallery-grid">
+
+            <div class="gallery-item">
+                <img th:src="@{/images/CodingSession.jpg}" alt="Late night coding"/>
+                <p>Late night coding session</p>
+            </div>
+
+            <div class="gallery-item">
+                <img th:src="@{/images/itws02.jpg}" alt="Map Project1"/>
+                <p>Map Project 1</p>
+            </div>
+
+            <div class="gallery-item">
+                <img th:src="@{/images/mapproject3.jpg}" alt="Map Project2"/>
+                <p>Project Planning</p>
+            </div>
+
+            <div class="gallery-item">
+                <img th:src="@{/images/workshop.jpg}" alt="Blockchain Workshop"/>
+                <p>Blockchain Workshop at NEUST Sumacab</p>
+            </div>
+
+            <div class="gallery-item">
+                <img th:src="@{/images/pioneer.png}" alt="Org Logo"/>
+                <p>Orgonization Logo</p>
+            </div>
+
+
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 Karl Joseph A. Austria | BSIT 2nd Year | NEUST
+    </footer>
+
+</body>
+</html>

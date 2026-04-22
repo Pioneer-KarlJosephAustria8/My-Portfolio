@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>My College Journey - Karl Joseph A. Austria</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}"/>
+</head>
+<body>
+
+    <nav>
+        <span class="logo">Karl's Portfolio</span>
+        <a href="/">Home</a>
+        <a href="/about">About Me</a>
+        <a href="/journey">My Journey</a>
+        <a href="/skills">Skills</a>
+        <a href="/gallery">Gallery</a>
+    </nav>
+
+    <div class="container">
+        <h1>My College Journey</h1>
+
+        <h2>Favorite Subject</h2>
+        <p>
+            My favorite subject is anything related to Philosophy. with things like Mathematics or Coding those are just logic,
+            you can question the subject but in the end it results in the same solution/answer. but with Philosophy I get to question
+            a lot of things, like "Why live why do this because we will all die anyway" things like that. I love being curious, it never
+            hurt nobody and all Im doing is satiating my curiosity for new knowledge no harm done. 
+        </p>
+
+        <h2>Memorable Class Experience</h2>
+        <p>
+            Im not one to remember things in school unless its the subjects itself, but I do have fond memories.
+            submitted a research paper and it passed in an international journal, so whoever is reading this if you 
+            ever make a research of your own regarding use of AI in college I hope my research would provide you with 
+            the knowledge and help I can provide.
+            
+        </p>
+
+        <h2>Biggest Challenge in College</h2>
+        <p>
+            The biggest challenge for me was adapting to the College Mindset. its not like Highschool anymore where you 
+            dont have to study and still get lucky with a minimum grade. In college just the bare-minimum is not enough 
+            for me. When I went to College I decided that my days of just cruising along is over and I decided that
+            I will strive to get good grades so that my future would be bright.
+        </p>
+
+        <h2>What I Have Learned So Far</h2>
+        <p>
+            I have learned a lot since I started college. Not just about programming and
+            technology, but also about time management, working with a team, and not giving up
+            when things get hard. College is not easy but it is teaching me a lot of valuable
+            lessons that I will carry with me for the rest of my life and I hope to never forget 
+            these lessons.
+        </p>
+
+        <h2>Photos from Campus</h2>
+        <div class="journey-photos">
+    
+             <img th:src="@{/images/ge5.jpg}" alt="ge5 play"/> 
+             <img th:src="@{/images/CodingSessionSchool.jpg}" alt="SchoolSession"/>
+             <img th:src="@{/images/cwts.jpg}" alt="cwts"/>
+        </div>
+
+    </div>
+
+    <footer>
+        &copy; 2025 Karl Joseph A. Austria | BSIT 2nd Year | NEUST
+    </footer>
+
+</body>
+</html>
